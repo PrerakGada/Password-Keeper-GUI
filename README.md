@@ -4,5 +4,5 @@ Do you have too many passwords to remeber and you many times forget them?
 It simply stores all your passwords offline and safe.
 
 
-# This Project is made with the help of :- Python, TKinter, SQLite3.
+# The initial password is "password", you can change it by running the setup file
 
