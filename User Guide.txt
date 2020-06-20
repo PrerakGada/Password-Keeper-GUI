@@ -1,0 +1,64 @@
+				-----PASSWORD KEEPER-----
+A simple, usefull and handy Password Keeper.
+You can store unlimited passwords here and access them wihtout internet connection!!
+
+
+~~Start Up~~
+
+-Open the Setup.exe file and create your admin password.
+-After creating your password, close the Setup.exe file.
+-Now open the Password_Keeper.exe file.
+-Once you enter the admin password, you will be able to see all your data in a text box on the bottom of the window.
+
+
+~~Adding Data~~
+
+-Start the Password_Keeper.exe and enter your admin password.
+-Fill the details on the left side of the window and click the "Add Password" Button.
+-As soon as you will click the button, the new Data will be visible on the bottom.
+
+
+~~Deleting Data~~
+
+--Delete a single Data--
+  -Start the Password_Keeper.exe and enter your admin password.
+  -Enter the Sr. No. of the Data that you want to delete in the box on the right side.
+  -After putting the Sr. No. in the box, click the "Delete Password" Button.
+  -As soon as you click the button, the data will be deleted permanently.
+--Delete all data--
+  -Start the Setup.exe file and enter your password.
+  -Do the create password process.
+  -To clear all the Data click Button bellow.
+  -As soon as you click the button, All the Data will be deleted Permanently.
+
+
+~~Editing Data~~
+
+-Start the Password_Keeper.exe and enter your admin password.
+-Enter the Sr. No. of the Data that you want to Edit in the box on the right side.
+-After putting the Sr. No. in the box, click the "Edit Password" Button.
+-The left side boxes will now have the details of the chosen data.
+-Simply edit them and click the "Save Changes" Button to save the Data.
+-As soon as you click the button, the data will be edited.
+
+
+
+~~Other Issues~~
+
+-If the Setup.exe and Password_Keeper.exe is autmatically getting deleted when you start them, then allow the file from the AntiVirus.
+
+-If the Setup.exe and Password_Keeper.exe files are not getting downloaded, Turn off your AntiVirus and try downloading again.
+
+
+
+=====PLEASE STAY TUNED FOR FUTURE UPDATES ON MY GITHUB ACCOUNT=====
+
+
+~~~~~This Software is built by Prerak Gada~~~~~
+
+Follow me on GitHub:- https://github.com/PrerakGada
+Follow me on Instagram:- https://www.instagram.com/prerak_the.legend/
+Follow me on Twitter:- https://twitter.com/prerak_gada
+Follow me on LinkedIn:- https://www.linkedin.com/in/prerak-gada-54a986199/
+
+Thank You for your support
