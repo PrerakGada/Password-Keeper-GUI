@@ -6,7 +6,7 @@ You can store unlimited passwords here and access them wihtout internet connecti
 ~~Start Up~~
 
 -Open the Setup.exe file and create your admin password.
--After creating your password, close the Setup.exe file.
+-After creating your password, close the Setup.exe file (Default password is "password").
 -Now open the Password_Keeper.exe file.
 -Once you enter the admin password, you will be able to see all your data in a text box on the bottom of the window.
 
