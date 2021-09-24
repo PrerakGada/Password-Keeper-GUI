@@ -1,7 +1,10 @@
+import random
 from tkinter import *
 from tkinter import messagebox
 import sqlite3
 from tkinter import ttk
+
+import pyperclip
 
 root = Tk()
 root.title("Password Keeper")
@@ -160,6 +163,25 @@ def edit():
     conn.close()
 
 
+def generate():
+    letters = ['J', 'H', 'E', 'N', 'I', 'L', 'j', 'h', 'e', 'n', 'i', 'l', 'P', 'A', 'R', 'p', 'a', 'r']
+    numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+    symbols = ['!', '#', '$', '%', '&', '@']
+
+    password_list = []
+
+    password_list += [random.choice(letters) for _ in range(random.randint(8, 10))]
+    password_list += [random.choice(symbols) for _ in range(random.randint(2, 4))]
+    password_list += [random.choice(numbers) for _ in range(random.randint(2, 4))]
+
+    random.shuffle(password_list)
+
+    generated_password = ''.join(password_list)
+    password_entry.delete(0, END)
+    password_entry.insert(0, generated_password)
+    pyperclip.copy(generated_password)
+
+
 def main():
     conn = sqlite3.connect('pass_book.db')
     c = conn.cursor()
@@ -211,6 +233,9 @@ def main():
 
     edit_btn = Button(main_frame, text="Edit Password", command=edit, activebackground="blue")
     edit_btn.grid(row=3, column=3, columnspan=2)
+
+    generate_btn = Button(main_frame, text="Generate Password", command=generate, activebackground="blue")
+    generate_btn.grid(row=4, column=3, columnspan=2)
 
     show()
 
